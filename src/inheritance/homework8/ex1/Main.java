@@ -1,5 +1,7 @@
 package inheritance.homework8.ex1;
 
+import inheritance.Bike;
+
 public class Main {
     public static void main(String[] args) {
         Product prod1 = new Product();
@@ -21,7 +23,9 @@ public class Main {
 
         cosm1.sellProduct();
         cosm1.sellProduct(10);
+        cosm1.hasTester(false);
 
+        System.out.println("------------");
         Product cosm2 = new Cosmetics();
         cosm2.setName("parfum");
         cosm2.setDescription("Chanel");
@@ -36,23 +40,28 @@ public class Main {
             System.out.println(String.format("Culoarea la %s este %s", cosm2.getName(), ((Cosmetics) cosm2).getColor()));
         }
 
-        Electronics elect1 = new Electronics(5,10,20,15);
-        elect1.setName("Philips");
-        elect1.setDescription("LCD");
-        elect1.setPrice(500);
-        elect1.setQuantity(20);
-        elect1.setType("TV");
+        Electronics elect1 = new Electronics(500,"Philips","LCD",20,"TV",5, 10, 20, 15);
 
         elect1.sellProduct();       //se apeleaza din parinte
 
-        Fridge fridge = new Fridge(20,20,90,55,-20);
-        fridge.setName("Samsung");
+        Fridge fridge = new Fridge(99,"Arctic","2 usi",120,"no frost", 20,20, 90, 55, -20);
+
         fridge.setQuantity(35);
-        fridge.setPrice(100);
+
         fridge.setType("no frost");
 
         fridge.sellProduct();
+        System.out.println("----------------");
+        Product[] produs = new Product[3];
+        produs[0] = new Product(3, "cutie", "clasica", 2);
+        produs[1] = new Electronics(200, "Sony","TV", 10, "LED", 5, 45, 30, 10);
+        produs[2] = new Fridge(88,"Samsung","2 usi",150,"no frost", 35, 35, 65, 45, -15.5f);
+        produs[2].setQuantity(30);
 
+        for (int i = 0; i < produs.length; i++) {
+            produs[i].sellProduct();
+
+        }
 
     }
 

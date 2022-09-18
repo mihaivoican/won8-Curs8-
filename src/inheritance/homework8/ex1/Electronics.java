@@ -11,11 +11,22 @@ public class Electronics extends Product{
     public Electronics() {
     }
 
-    public Electronics(int length, int width, int height, int weight) {
+    public Electronics(String type,int length, int width, int height, int weight) {
+
+        this.type=type;
         this.length = length;
         this.width = width;
         this.height = height;
         this.weight = weight;
+    }
+    public Electronics(int pret, String nume, String descriere, int cantitate,String type,int length, int width, int height, int weight){
+        super(pret,nume,descriere,cantitate);   //cele mostenite
+        //atribute noi
+        this.type=type;
+        this.length=length;
+        this.width=width;
+        this.height=height;
+        this.weight=weight;
     }
 
     public void setType(String type) {

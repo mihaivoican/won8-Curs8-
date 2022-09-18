@@ -6,6 +6,17 @@ public class Product {
     private String description;
     private int quantity;
 
+    public Product(float price, String name, String description, int quantity) {
+        this.price = price;
+        this.name = name;
+        this.description = description;
+        this.quantity = quantity;
+    }
+
+    public Product(){
+
+    }
+
     public void sellProduct(){
         if (quantity >0) {
             quantity--;
