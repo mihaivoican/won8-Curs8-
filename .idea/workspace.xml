@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="commit 2  ex1">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Main.java" afterDir="false" />
+    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="tema ex 2">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex2/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/DatabaseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="inheritance.homework8.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.inheritance.homework8.ex2.Main">
+  <component name="RunManager" selected="Application.inheritance.homework8.ex3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.main.Main" />
       <module name="WON8" />
@@ -92,10 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="inheritance.homework8.ex3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.homework8.ex3.Main" />
+      <module name="WON8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.homework8.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.inheritance.homework8.ex2.Main" />
+        <item itemvalue="Application.inheritance.homework8.ex3.Main" />
         <item itemvalue="Application.inheritance.homework8.ex1.Main" />
+        <item itemvalue="Application.inheritance.homework8.ex2.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -130,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663528227929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tema ex 2">
+      <created>1663579327068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663579327068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +168,8 @@
     <MESSAGE value="course code commit" />
     <MESSAGE value="commit tema ex1" />
     <MESSAGE value="commit 2  ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2  ex1" />
+    <MESSAGE value="tema ex 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tema ex 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

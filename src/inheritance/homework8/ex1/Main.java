@@ -23,6 +23,7 @@ public class Main {
 
         cosm1.sellProduct();
         cosm1.sellProduct(10);
+
         cosm1.hasTester(false);
 
         System.out.println("------------");

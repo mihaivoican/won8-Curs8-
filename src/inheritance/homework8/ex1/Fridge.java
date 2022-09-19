@@ -16,6 +16,6 @@ public class Fridge extends Electronics{
     @Override
     public void sellProduct(){
         setQuantity(this.getQuantity() -1);
-        System.out.println(String.format("S-a vandut produsul electronic %s. Stoc nou %s",this.getName(),this.getQuantity()));
+        System.out.println(String.format("S-a vandut produsul frigorific %s. Stoc nou %s",this.getName(),this.getQuantity()));
     }
 }
