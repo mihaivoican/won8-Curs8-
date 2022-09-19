@@ -1,10 +1,11 @@
 package inheritance.homework8.ex2;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public interface Person {
     String getFirstName();
     String getLastName();
-    Date getBirthDate();
+    LocalDate getBirthDate();
     String getAddress();
 }

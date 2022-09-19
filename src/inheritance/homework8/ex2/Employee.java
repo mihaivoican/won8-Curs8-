@@ -1,24 +1,26 @@
 package inheritance.homework8.ex2;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 
-public class Employee implements Person{
+public class Employee implements Person {
 
     private String firstName;
     private String lastName;
-    private Date birthDate;
+    private LocalDate birthDate;
     private String address;
-    private Date dateOfEmployment;
+    private LocalDate dateOfEmployment;
     private String position;
 
 
-    public Employee(String firstName, String lastName, Date birthDate, String address, Date dateOfEmployment, String position) {
+    public Employee(String firstName, String lastName, LocalDate birthDate, String address, LocalDate dateOfEmployment, String position) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
         this.address = address;
-        this.dateOfEmployment = dateOfEmployment;
         this.position = position;
+        this.dateOfEmployment = dateOfEmployment;
     }
 
     @Override
@@ -32,7 +34,7 @@ public class Employee implements Person{
     }
 
     @Override
-    public Date getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
@@ -41,11 +43,16 @@ public class Employee implements Person{
         return address;
     }
 
-    public Date getDateOfEmployment() {
+    public LocalDate getDateOfEmployment() {
         return dateOfEmployment;
     }
 
     public String getPosition() {
         return position;
+    }
+
+    public String  calculVechime(){
+        Period vechime = Period.between(this.dateOfEmployment, LocalDate.now());
+        return String.format("Ani %s, Luni %s, zile %s",vechime.getYears(),vechime.getMonths(),vechime.getDays());
     }
 }
