@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="tema ex 2">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex3/Main.java" afterDir="false" />
+    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="tema ex 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Fridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/homework8/ex2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663579327068</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tema ex 3">
+      <created>1663592806242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663592806242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <MESSAGE value="commit tema ex1" />
     <MESSAGE value="commit 2  ex1" />
     <MESSAGE value="tema ex 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tema ex 2" />
+    <MESSAGE value="tema ex 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="tema ex 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

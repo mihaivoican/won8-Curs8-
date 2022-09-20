@@ -8,7 +8,7 @@ public class Main {
 
         Employee emp1 = new Employee("Ion", "Ionescu", LocalDate.of(1960, 12, 30), "Buc, str Fara Nume 1", LocalDate.of(1997, 7, 25), "debutant");
 
-        //cele 3 randuri de mai jos sunt pt formatarea campurilor de data la afisare
+        // mai jos e pt formatarea campurilor de data la afisare
         DateTimeFormatter formatData = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
 
