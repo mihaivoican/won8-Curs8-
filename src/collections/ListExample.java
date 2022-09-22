@@ -51,12 +51,29 @@ public class ListExample {
             System.out.println(cars.get(i));
         }
         System.out.println("-----------------");
-        //parcurgere lista cu for-each simplificat
 
+        //parcurgere lista cu for-each simplificat
         for (String c : cars) {
             System.out.println(c);
         }
         System.out.println("----------------------");
+
+        //Iterator -> ajuta la parcurgerea listei/ si altor colectii
+        // Get the iterator
+        Iterator<String> it = cars.iterator();
+
+        // Print the first item
+        System.out.println(it.next());
+
+        //parcurg lista cu iteratorul
+        while(it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+        System.out.println("------------------------------");
+        //caut un elem in lista
+        cars.contains("BMW");
+        System.out.println( cars.contains("BMW"));
         // ALTE tipuri de elemente /obiecte pot fi Boolean, Double, Character
 
 //SORTARE pe ArrayList (numeric sau alfabetic) Prin Collection.sort
