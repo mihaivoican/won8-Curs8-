@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="add src directory" />
+    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="add src directory">
+      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Homework9.ex3.Main">
     <configuration name="Basket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework9.ex1.Basket" />
       <module name="WON8" />
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ListExample" />
+    <configuration name="Homework9.ex3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework9.ex3.Main" />
       <module name="WON8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="Homework9.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework9.ex3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework9.ex1.Main" />
         <item itemvalue="Application.Basket" />
         <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.ListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663152773084</updated>
     </task>
+    <task id="LOCAL-00001" summary="add src directory">
+      <created>1663945458305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663945458305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add src directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add src directory" />
   </component>
 </project>
