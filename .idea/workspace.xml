@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="add src directory">
-      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework9/ex3/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework9/ex3/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/ex3/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework9/ex3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/ex3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework9/ex3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/ex3/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663945458305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit tema ex1">
+      <created>1663498934145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663498934145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit Liste">
+      <created>1663838273789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663838273789</updated>
+    </task>
+    <task id="LOCAL-00004" summary="colectii Set si Queue -de la curs">
+      <created>1663851237450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663851237450</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework 9 ex 1">
+      <created>1663921223187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663921223187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +183,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add src directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add src directory" />
+    <MESSAGE value="curs 9" />
+    <MESSAGE value="curs 9 abstract classes" />
+    <MESSAGE value="ex3 -metoda profesorului.Atentie. E deosebita!" />
+    <MESSAGE value="commit Liste" />
+    <MESSAGE value="colectii Set si Queue -de la curs" />
+    <MESSAGE value="Homework 9 ex 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 9 ex 1" />
   </component>
 </project>
