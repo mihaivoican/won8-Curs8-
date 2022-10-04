@@ -32,5 +32,16 @@ public class Main {
         //lista media note / disciplina
         Integer media = clasa.getAverageGrade("Mathematics");
         System.out.println("Media la mate:" +media);
+
+        StudentGrade sg3 = clasa.getWorstGrade("Mathematics");
+        System.out.println("Cea mai proasta nota la mate");
+        System.out.println(sg3);
+
+        //lista tututror studentilor cu nota min la o materie
+        List<StudentGrade> lst = clasa.getWorstGrade2("Mathematics");
+        System.out.println("Lista cu stud cu cele mai proaste note  la mate");
+        for (StudentGrade st : lst){
+            System.out.println(st.toString());
+        }
     }
 }
