@@ -6,8 +6,13 @@ import java.util.List;
 public class Classroom {
     private ArrayList<StudentGrade> listaStudentiNote;
 
+    //constructor
     public Classroom(ArrayList<StudentGrade> listaStudentiNote) {
         this.listaStudentiNote = listaStudentiNote;
+    }
+
+    public ArrayList<StudentGrade> getListaStudentiNote() {
+        return listaStudentiNote;
     }
 
     //intoarce lista note la o materie

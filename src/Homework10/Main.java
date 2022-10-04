@@ -43,5 +43,8 @@ public class Main {
         for (StudentGrade st : lst){
             System.out.println(st.toString());
         }
+        //generam un raport in fisier
+        ReportGenerator report = new ReportGenerator(listaStudentiNote);
+        report.generateReport();
     }
 }
