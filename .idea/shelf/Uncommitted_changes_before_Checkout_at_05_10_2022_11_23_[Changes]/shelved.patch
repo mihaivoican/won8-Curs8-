@@ -1,0 +1,137 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,10 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="Homework 10 Exercises2">
+-      <change afterPath="$PROJECT_DIR$/src/Homework10/Regex/RegexHomework.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Regex/RegexExample.java" afterDir="false" />
++    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/Homework10/Regex/DoubleNumber.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Homework10/Regex/RegexHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework10/Regex/RegexHomework.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -32,19 +32,32 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\WON8\8-\WON8" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.RegexHomework">
++  <component name="RunManager" selected="Application.DoubleNumber">
++    <configuration name="DoubleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Homework10.Regex.DoubleNumber" />
++      <module name="WON8" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Homework10.Regex.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Homework10.Main" />
+       <module name="WON8" />
+@@ -97,26 +110,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="WritingToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="ReadingWritingFile.WritingToFile" />
+-      <module name="WON8" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="ReadingWritingFile.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.DoubleNumber" />
+         <item itemvalue="Application.RegexHomework" />
+         <item itemvalue="Application.Main" />
+         <item itemvalue="Application.ReadFromFile" />
+         <item itemvalue="Application.ObjectsFromFile" />
+-        <item itemvalue="Application.WritingToFile" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/Homework10/Regex/DoubleNumber.java
+===================================================================
+diff --git a/src/Homework10/Regex/DoubleNumber.java b/src/Homework10/Regex/DoubleNumber.java
+new file mode 100644
+--- /dev/null	
++++ b/src/Homework10/Regex/DoubleNumber.java	
+@@ -0,0 +1,26 @@
++package Homework10.Regex;
++
++import java.util.regex.Matcher;
++import java.util.regex.Pattern;
++
++public class DoubleNumber {
++//e un format si pt cele cu virgula si pt cele intregi. DAca vrem obligatoriu cu , scot {0,1}
++    public static final String doublePattern = "^[+\\-]{0,1}[0-9]+[\\.]{0,1}[0-9]+$";
++
++    public static void main(String[] args) {
++        String[] doubles = {"123.4", "-100.0", "+2000" , "0.799", "+10.23", "500", "99.", ".287"};
++        for (String i : doubles) {
++            System.out.println("Is nr " + i + " a double? " + isDoublePattern(i, doublePattern));
++        }
++    }
++
++    private static boolean isDoublePattern(String str, String pattern) {
++        if (str == null || str.trim().length() == 0)
++            return false;
++
++        Pattern p = Pattern.compile(pattern);
++        Matcher m = p.matcher(str);
++        return m.matches();
++
++    }
++}
+Index: src/Homework10/Regex/RegexHomework.java
+===================================================================
+diff --git a/src/Homework10/Regex/RegexHomework.java b/src/Homework10/Regex/RegexHomework.java
+--- a/src/Homework10/Regex/RegexHomework.java	
++++ b/src/Homework10/Regex/RegexHomework.java	
+@@ -5,7 +5,7 @@
+         //Inlocuiti intr-un text toate cuvintele care incep cu "m" si se termina cu "e".
+         //NU merge bine
+         String t1 = "mama e cu mine mereu";
+-        System.out.println(t1.replaceAll("\\bm.+e\\b","*"));
++        System.out.println(t1.replaceAll("\\b(m|M)[a-zA-Z]{0,42}(e|E)\\b","*"));
+     }
+ 
+ }
