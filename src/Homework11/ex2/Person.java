@@ -2,10 +2,10 @@ package Homework11.ex2;
 
 import java.util.Objects;
 
-public final class Person {
-    private final String name;
-    private final Integer age;
-    private final String hairColour;
+public  class Person {
+    private  String name;
+    private  Integer age;
+    private  String hairColour;
 
     public Person(String name, Integer age, String hairColour) {
         this.name = name;
