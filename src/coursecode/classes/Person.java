@@ -1,4 +1,4 @@
-package org.fasttrackit.classes;
+package coursecode.classes;
 
 public class Person {
     private final String name;

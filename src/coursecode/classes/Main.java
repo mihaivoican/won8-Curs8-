@@ -1,4 +1,4 @@
-package org.fasttrackit.classes;
+package coursecode.classes;
 
 import java.util.Comparator;
 import java.util.List;

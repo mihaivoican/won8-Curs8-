@@ -1,4 +1,4 @@
-package org.fasttrackit.enums;
+package coursecode.enums;
 
 public enum CardinalPoints {
     NORTH("N"),
