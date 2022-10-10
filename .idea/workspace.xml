@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="first commit 2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="curs11-coursecode si homework10">
+      <change afterPath="$PROJECT_DIR$/src/Homework11/ex1/MapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework11/ex2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework11/ex2/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -42,13 +45,45 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Homework11.ex2" />
+      <recent name="Homework11.ex1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Classroom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coursecode.homework.Classroom" />
+      <option name="MAIN_CLASS_NAME" value="coursecode.homework10.Classroom" />
       <module name="WON8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coursecode.homework.*" />
+          <option name="PATTERN" value="coursecode.homework10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework11.ex2.Main" />
+      <module name="WON8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework11.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework11.ex1.MapEx" />
+      <module name="WON8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework11.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,6 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MapEx" />
         <item itemvalue="Application.Classroom" />
       </list>
     </recent_temporary>
@@ -71,6 +108,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663152773084</updated>
     </task>
+    <task id="LOCAL-00001" summary="curs11-coursecode si homework10">
+      <created>1665393079674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665393079674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="curs11-coursecode si homework10" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs11-coursecode si homework10" />
   </component>
 </project>
