@@ -15,7 +15,8 @@ public class MapExercise {
         nameToAge.put("John", 40);
 
         System.out.println(nameToAge);
-        System.out.println(nameToAge.keySet());
+        System.out.println(nameToAge.keySet()); //printeaza cheile
+        System.out.println(nameToAge.values()); //printeaza valorile
 
         if (!nameToAge.containsKey("Mark")) {
             nameToAge.put("Mark", 33);
@@ -49,6 +50,8 @@ public class MapExercise {
 
         Map<Integer, StudentGrade> studentGradeMap = new HashMap<>();
         studentGradeMap.put(1, new StudentGrade("Alex", "CS", 10));
+
+
     }
 
 
