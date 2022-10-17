@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69c8a31-4dfd-4e35-b206-35e89cff45a6" name="Changes" comment="curs12">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_10_2022_11_43_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_10_2022_11_43__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ErrorMessageMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ExceptionsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MathService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NumberTooLargeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/PowerTooLargeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/exercises1/DailyPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/exercises1/DaySchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/exercises1/DaysOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_10_2022_11_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_10_2022_11_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +29,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EkwDQGvc2bur3uJYrprdcHathD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663152773084</updated>
     </task>
+    <task id="LOCAL-00001" summary="curs12bis-gol">
+      <created>1666030527379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666030527379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="curs12bis-gol" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs12bis-gol" />
   </component>
 </project>
