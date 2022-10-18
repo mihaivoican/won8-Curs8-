@@ -17,7 +17,7 @@ public class DailyPlanner {
     //addActivity(day, activity),   - if the activity is null throw a custom UNCHECKED exception: NoActivityException
     public void addActivity(DaysOfWeek day, String activity){
         if(activity ==null){
-            throw new RuntimeException();
+            throw new NoActivityException("N-ati trimis activitatea");
         }
         this.planZilnic.add(new DaySchedule(day,new ArrayList<String>(Collections.singleton(activity))));
     }
