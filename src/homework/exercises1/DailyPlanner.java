@@ -1,9 +1,6 @@
 package homework.exercises1;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class DailyPlanner {
     private List<DaySchedule> planZilnic = new ArrayList<>();
@@ -20,6 +17,10 @@ public class DailyPlanner {
             throw new NoActivityException("N-ati trimis activitatea");
         }
         this.planZilnic.add(new DaySchedule(day,new ArrayList<String>(Collections.singleton(activity))));
+    }
+
+    public void removeActivity(DaysOfWeek day, String activity){
+//        Iterator<DaySchedule> i this.planZilnic.iterator();
     }
 
     @Override

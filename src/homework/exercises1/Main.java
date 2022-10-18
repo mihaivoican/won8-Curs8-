@@ -12,7 +12,9 @@ public class Main {
 
         System.out.println(dp);
 
+        //provoc erarea
         dp.addActivity(DaysOfWeek.MIERCURI,null);
+
 
 
 
