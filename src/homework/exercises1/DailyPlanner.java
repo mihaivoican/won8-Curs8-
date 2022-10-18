@@ -19,8 +19,26 @@ public class DailyPlanner {
         this.planZilnic.add(new DaySchedule(day,new ArrayList<String>(Collections.singleton(activity))));
     }
 
+
     public void removeActivity(DaysOfWeek day, String activity){
-//        Iterator<DaySchedule> i this.planZilnic.iterator();
+        Boolean gasit=false;
+
+        Iterator<DaySchedule> i =planZilnic.iterator();
+        while(i.hasNext()){
+            DaySchedule ziCurenta = i.next();
+            if(ziCurenta.getZi().equals(day))   {   //am gasit ziua
+                //iteram in lista din acea zi
+                Iterator<String> iter= ziCurenta.getListActivities().iterator();
+                String activitCurenta = iter.next();
+                if(activitCurenta.equals(activity)){        //gasit activitatea
+                    i.remove();
+                    gasit=true;
+                }
+            }
+        }
+        if (!gasit){
+            throw new NoActivityException("N-am gasit activitatea");
+        }
     }
 
     @Override
