@@ -19,4 +19,12 @@ public class DaySchedule {
     public List<String> getListActivities() {
         return listActivities;
     }
+
+    @Override
+    public String toString() {
+        return "DaySchedule{" +
+                "zi=" + zi +
+                ", listActivities=" + listActivities +
+                '}';
+    }
 }
